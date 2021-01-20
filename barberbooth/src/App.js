@@ -4,7 +4,9 @@ import cors from "cors";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/WebComponents/navsidebar/index1.js";
 import Footer from "./components/WebComponents/footer/footer.js";
-
+import Check from "./components/WebComponents/checkout/mainpage";
+import Card from "./components/WebComponents/main.js";
+import Payment from "./components/WebComponents/Payment/Modal";
 
 class App extends Component {
   componentDidMount() {
