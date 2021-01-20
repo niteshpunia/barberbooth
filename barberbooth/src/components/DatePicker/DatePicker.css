@@ -1,0 +1,17 @@
+.styles {
+  outline: none;
+}
+.myDate {
+  background-color: red;
+  color: red;
+}
+span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-between;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
