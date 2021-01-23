@@ -3,11 +3,18 @@ import axios from "axios";
 import cors from "cors";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/WebComponents/navsidebar/index1.js";
-import Footer from "./components/WebComponents/footer/footer.js";
-import Check from "./components/WebComponents/checkout/mainpage";
+import Slider from "./components/WebComponents/slider/slider.js";
 import Card from "./components/WebComponents/main.js";
+import Login from "./components/WebComponents/modal/modal.js";
+import Footer from "./components/WebComponents/footer/footer.js";
+import Details from "./components/WebComponents/item/item.js";
+import Check from "./components/WebComponents/checkout/mainpage";
 import Payment from "./components/WebComponents/Payment/Modal";
-
+import Cat from "./admin/insertcat";
+import Register from "./components/WebComponents/modal/Register.js";
+import Work from "./admin/insertworker";
+import * as actions from "./actions";
+import { connect } from "react-redux";
 class App extends Component {
   componentDidMount() {
     this.props.User();
