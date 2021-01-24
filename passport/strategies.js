@@ -42,6 +42,23 @@ const google_strategy = new strategy(
   }
 );
 
+if (google_strategy) {
+  passport.use(google_strategy);
+}
+if (local_strategy) {
+  passport.use(local_strategy);
+}
+// if(facebook_strategy){passport.use( facebook_strategy )}
+passport.serializeUser((register, done) => {
+  done(null, register.id);
+});
+
+passport.deserializeUser((id, done) => {
+  register.findById(id).then((user) => {
+    done(null, user);
+  });
+});
+
 // // facebook startegy?????????????????????
 // const facebook_strategy=new fstrategy(
 
@@ -59,19 +76,3 @@ const google_strategy = new strategy(
 //                return done(null,use);
 //     }
 //     )
-if (google_strategy) {
-  passport.use(google_strategy);
-}
-if (local_strategy) {
-  passport.use(local_strategy);
-}
-// if(facebook_strategy){passport.use( facebook_strategy )}
-passport.serializeUser((register, done) => {
-  done(null, register.id);
-});
-
-passport.deserializeUser((id, done) => {
-  register.findById(id).then((user) => {
-    done(null, user);
-  });
-});
