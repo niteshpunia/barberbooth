@@ -87,7 +87,7 @@ class toolbar extends Component {
         </div>
         <div className="  toolbar__logo   col-0 col-sm-2 col-md-3 logo   d-none d-sm-block  mr-5">
           <a exact to="/">
-            EZLYF
+            ServiceBooth
           </a>
         </div>
         <div className="col-9 col-sm-4 col-md-4">
