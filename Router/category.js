@@ -3,7 +3,6 @@ const cat = mongoose.model("categories");
 const worker = mongoose.model("worker");
 module.exports = (app) => {
   app.post("/api/cat", async (req, res) => {
-    console.log(req.body);
     const { cat_img, cat_name, cat_desc } = req.body;
     console.log(cat_img);
     const add = await new cat({
