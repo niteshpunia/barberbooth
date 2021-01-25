@@ -34,3 +34,7 @@ Milestones :
 - User acceptance testing
 - Deployment
 - Support
+
+!!!BUILD INSTRUCTION IN SERVICEBOOTH FOLDER !!!
+
+!!! Backend repository can be accessed the tree selection above or [here](https://github.com/niteshpunia/servicebooth/tree/BarberBooth-Server-and-database)  !!!
