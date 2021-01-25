@@ -1,5 +1,5 @@
-# barberbooth
-Hairdresser appointment booking platform
+# ServiceBooth
+ServiceBooth(previously known as barberBooth) is an appointment booking platform
 
 
 Team : 
@@ -8,9 +8,9 @@ Team :
 - Rishav Rapta ( https://www.linkedin.com/in/rishav-rapta-a92b71170/ ) 
 
 
-barberbooth is a web platform for barbers and clients modernizing the barbershop experience.
+ServiceBooth is a web platform for barbers, beuticians, spas and clients modernizing the booking experience.
 
-For Barbers:
+For Service Providers:
 - Invite your clients & manage your client list
 - Keep all of your appointments organized in one place
 - Set your location and availability to get discovered by new clients & grow your business
