@@ -21,6 +21,9 @@ For Clients:
 - Book appointments
 - pay for your haircut within the app using mobile payments
 
+TestUser Details:
+Username - test@servicebooth.com
+Password - test123@
 
 Tech Stack: 
 - Frontend : HTML5 , CSS , javascript , React 
