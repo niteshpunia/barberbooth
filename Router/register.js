@@ -37,7 +37,7 @@ module.exports = (app) => {
         username: req.body.username,
         salt: salt,
         hash: hash,
-      }).save(); // use of save query
+      }).save();
       return res.status(200).json({
         success: true,
         redirect: "/login",
